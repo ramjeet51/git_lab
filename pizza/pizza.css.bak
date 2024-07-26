@@ -1,0 +1,534 @@
+::-webkit-scrollbar{
+	width:15px;
+
+}
+::-webkit-scrollbar-track{
+	border-radius:5px;
+	background:teal;
+}
+::-webkit-scrollbar-thumb
+{
+	background:#fff;
+	border-radius:30%;
+}
+
+
+.navigation-wrap{
+	background:teal;
+	position:fixed;
+	width:100%;
+	z-index:1000;
+	color:#fff;
+}
+.fbs{
+	padding:1rem;
+	letter-spacing:.2rem;
+	color:#fff;
+}
+.main-btn{
+	color:#000;
+	background:#fff;
+	outline:none;
+	border:none;
+	border-radius:20px;
+	height:40px;
+	width:150px;
+	border:2px solid yellow;
+	transition:.4s;
+}
+:root
+{
+	--primary-color:#ffc222;
+	--secondry-color:#00a149;
+	--white-color:#fff;
+	--text-color:#b0b0b0;
+	--black-color:#1e1d23;
+	--primary-font:'Roboto',sens-serif;
+	--secondry-font:'Quicksand',sens-serif;
+}
+.main-btn:hover{
+	background:var(--primary-color);
+}
+.moving{
+	height:550px;
+	
+	
+	background-size:cover;
+	
+}
+
+.text{
+	padding-top:200px;
+	color:#fff;
+}
+.text1{
+	color:#fff;
+}
+#jay{
+	min-height:550px;
+	background:url('Scenery Wallpaper.jfif') no-repeat;background-size:cover;
+}
+@media(max-width:900px)
+{
+	#jay{
+		height:1500px;
+	}
+	#animate{
+		height:50%;
+		width:50%;
+	}
+	.main-btn{
+		margin-left:200px;
+	}
+}
+#animate{
+	height:80%;
+	width:100%;
+	margin-top:100px;
+	animation:ani 5s linear infinite;
+	position:relative;
+}
+@keyframes ani{
+	0%{
+		top:0;
+	}
+	50%{
+		top:-50px;
+	}
+	100%{
+		top:0px;
+	}
+}
+.card{
+	min-height:300px;
+	border:5px solid #fff;
+	position:relative;
+	overflow:hidden;
+	background:teal;
+	color:red;
+	
+}
+.card .box{
+	height:100%;
+	width:100%;
+	background:url('istockphoto-1254672762-170667a.jpg') no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:-100%;
+	right:.1rem;
+	transition:.4s;
+}
+.card:hover .box{
+	top:0;
+	right:.1rem;
+}
+.card .box1{
+	height:100%;
+	width:100%;
+	background:url('pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg') no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:-100%;
+	right:.1rem;
+	transition:.4s;
+}
+.card:hover .box1{
+	top:0;
+	right:.1rem;
+}
+.card .box2{
+	height:100%;
+	width:100%;
+	background:url('assorted-ice-cream-28379597.jpg') no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:-100%;
+	transition:.4s;
+	right:.1rem;
+}
+.card:hover .box2{
+	top:0;
+	right:.1rem;
+}
+.card .box3{
+	height:100%;
+	width:100%;
+	background:url('istockphoto-533575209-612x612.jpg') no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:-100%;
+	right:.1rem;
+	transition:.4s;
+}
+.card:hover .box3{
+	top:0;
+	right:.1rem;
+}
+.card .box4{
+	height:100%;
+	width:100%;
+	background:url('istockphoto-1054228718-612x612.jpg') no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:-100%;
+	right:.1rem;
+	transition:.4s;
+}
+.card:hover .box4{
+	top:0;
+	right:.1rem;
+}
+.card .box5{
+	height:100%;
+	width:100%;
+	background:url('south-indian-breakfast-idli-dosa-chutney-indian-breakfast-lentil-rice-pancake-also-known-as-dosa-dumplings-known-as-idli-158574513.jpg') no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:-100%;
+	transition:.4s;
+	right:.1rem;
+}
+.card:hover .box5{
+	top:0;
+	right:.1rem;
+}
+.card2{
+	min-height:400px;
+	border:1px solid #fff;
+	
+}
+.card2 .outer{
+	height:70%;
+	width:100%;
+	background:url('istockphoto-1254672762-170667a.jpg') no-repeat;
+	background-size:cover;
+	border-radius:20px;
+}
+.card2 .outer1{
+	height:70%;
+	width:100%;
+	background:url('Free-Happy-Birthday-Cake-Images-Wallpaper.jpg') no-repeat;
+	background-size:cover;
+	border-radius:20px;
+}
+.card2 .outer2{
+	height:70%;
+	width:100%;
+	background:url('istockphoto-1054228718-612x612.jpg') no-repeat;
+	background-size:cover;
+	border-radius:20px;
+}
+.card2 .outer3{
+	height:70%;
+	width:100%;
+	background:url('HD-wallpaper-red-cupcakes-pastries-cakes-sweets-fastfood-cupcakes.jpg') no-repeat;
+	background-size:cover;
+	border-radius:20px;
+}
+.card2 .outer4{
+	height:70%;
+	width:100%;
+	background:url('wp2481204.webp') no-repeat;
+	background-size:cover;
+	border-radius:20px;
+}
+.card2 .outer5{
+	height:70%;
+	width:100%;
+	background:url('240308.webp') no-repeat;
+	background-size:cover;
+	border-radius:20px;
+}
+.btn{
+	background:red;
+	color:#fff;
+	transition:.3s;
+}
+.btn:hover{
+	background:black;
+}
+.works{
+	min-height:250px;
+	border-radius:50%;
+	background:red;
+	padding:1rem;
+	border:5px solid #fff;
+	transition:.5s;
+}
+.cont{
+	text-align:center;
+	font-weight:700;
+	color:teal;
+	font-size:20px;
+}
+.works:hover{
+	background:#000;
+	cursor:pointer;
+}
+
+.gal{
+	min-height:300px;
+	background:url('istockphoto-1254672762-170667a.jpg' ) no-repeat;
+	background-size:cover;;
+	border:3px solid #fff;
+	position:relative;
+	overflow:hidden;
+
+}
+.gal .inner{
+	height:100%;
+	width:100%;
+	background:#d3d3d3;
+
+	position:absolute;
+	top:-100%;
+		transition:.5s;
+}
+.gal:hover .inner{
+	top:0%;
+	opacity:.8;
+}
+.gal1{
+	min-height:300px;
+	background:url('HD-wallpaper-red-cupcakes-pastries-cakes-sweets-fastfood-cupcakes.jpg') no-repeat;
+	background-size:cover;
+	border:3px solid #fff;
+	position:relative;
+	overflow:hidden;
+
+}
+.gal1 .inner1{
+	height:100%;
+	width:100%;
+	background:#d3d3d3;
+
+	position:absolute;
+	top:-100%;
+		transition:.5s;
+}
+.gal1:hover .inner1{
+	top:0%;
+	opacity:.8;
+}
+.gal2{
+	min-height:300px;
+	background:url('istockphoto-961510860-612x612.jpg') no-repeat;
+	background-size:cover;
+	border:3px solid #fff;
+	position:relative;
+	overflow:hidden;
+
+}
+.gal2 .inner2{
+	height:100%;
+	width:100%;
+	background:#d3d3d3;
+
+	position:absolute;
+	top:-100%;
+		transition:.5s;
+}
+.gal2:hover .inner2{
+	top:0%;
+	opacity:.8;
+}
+.gal3{
+	min-height:300px;
+	background:url('packed-korea-lunch-lunch-box-baek-jong-won.jpg') no-repeat;
+	background-size:cover;
+	border:3px solid #fff;
+	position:relative;
+	overflow:hidden;
+
+}
+.gal3 .inner3{
+	height:100%;
+	width:100%;
+	background:#d3d3d3;
+
+	position:absolute;
+	top:-100%;
+		transition:.5s;
+}
+.gal3:hover .inner3{
+	top:0%;
+	opacity:.8;
+}
+.gal4{
+	min-height:300px;
+	background:url('pizza-fast-food-vegetables-food-wallpaper-preview.jpg') no-repeat;
+	background-size:cover;
+	border:3px solid #fff;
+	position:relative;
+	overflow:hidden;
+
+}
+.gal4 .inner4{
+	height:100%;
+	width:100%;
+	background:#d3d3d3;
+
+	position:absolute;
+	top:-100%;
+		transition:.5s;
+}
+.gal4:hover .inner4{
+	top:0%;
+	opacity:.8;
+}
+
+.gal5{
+	min-height:300px;
+	background:url('Free-Happy-Birthday-Cake-Images-Wallpaper.jpg') no-repeat;
+	background-size:cover;
+	border:3px solid #fff;
+	position:relative;
+	overflow:hidden;
+
+}
+.gal5 .inner5{
+	height:100%;
+	width:100%;
+	background:#d3d3d3;
+
+	position:absolute;
+	top:-100%;
+		transition:.5s;
+}
+.gal5:hover .inner5{
+	top:0%;
+	opacity:.8;
+}
+.gal6{
+	min-height:300px;
+	background:url('istockphoto-1054228718-612x612.jpg') no-repeat;
+	background-size:cover;
+	border:3px solid #fff;
+	position:relative;
+	overflow:hidden;
+
+}
+.gal6 .inner6{
+	height:100%;
+	width:100%;
+	background:#d3d3d3;
+
+	position:absolute;
+	top:-100%;
+		transition:.5s;
+}
+.gal6:hover .inner6{
+	top:0%;
+	opacity:.8;
+}
+.gal7{
+	min-height:300px;
+	background:url('istockphoto-533575209-612x612.jpg') no-repeat;
+	background-size:cover;
+	border:3px solid #fff;
+	position:relative;
+	overflow:hidden;
+
+}
+.gal7 .inner7{
+	height:100%;
+	width:100%;
+	background:#d3d3d3;
+
+	position:absolute;
+	top:-100%;
+		transition:.5s;
+}
+.gal7:hover .inner7{
+	top:0%;
+	opacity:.8;
+}
+.gal8{
+	min-height:300px;
+	background:url('istockphoto-1249115936-612x612.jpg') no-repeat;
+	background-size:cover;
+	border:3px solid #fff;
+	position:relative;
+	overflow:hidden;
+
+}
+.gal8 .inner8{
+	height:100%;
+	width:100%;
+	background:rgba(128,128,128,0.05);
+
+	position:absolute;
+	top:-100%;
+		transition:.5s;
+}
+.gal8:hover .inner8{
+	top:0%;
+	opacity:.8;
+}
+.feed{
+	min-height:400px;
+	border:10px solid #fff;
+	position:relative;
+	background:teal;
+	box-shadow:1px 1px 10px 0px gray;
+	cursor:wait;
+}
+.feed .smallimg{
+	
+	position:absolute;
+	min-height:110px;
+	width:110px;
+	background:url('ss.jpg') no-repeat;
+	background-size:cover;
+	border-radius:50%;
+	border:10px solid #fff;
+	top:-11%;
+	left:36%;
+}
+form input{
+	height:45px;
+	width:350px;
+	padding-left:20px;
+	outline:none;
+	border:2px solid brown;
+	border-radius:10px;
+	color:#000;
+	text-transform:uppercase;
+	background:rgba(128,128,128,0.01);
+	margin-top:20px;
+	
+	
+}
+form input:focus{
+	border:2px solid red;
+}
+form textarea{
+	height:100px;
+	width:90%;
+	text-transform:uppercase;
+	background:rgba(128,128,128,0.01);
+	margin-top:20px;
+	outline:none;
+	border:2px solid brown;
+	border-radius:10px;
+}
+form textarea:focus{
+	border:2px solid red;
+}
+.fbs{
+	color:red;
+}
+.fbs:hover{
+	color:yellow;
+}
+.footerimage{
+	height:60px;
+	width:50px;
+	border-radius:10px;
+	margin-top:30px;
+	transition:.5s;
+}
+.footerimage:hover{
+	height:100px;
+	width:90px;
+}
